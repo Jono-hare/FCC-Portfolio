@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --orange: #FB5607;
+    --black: #171717;
+    --white: #F4F5F5;
+}
+
+
+/* Nav Styling */
+
+nav {
+    height: 4.68em;
+    background-color: var(--black);
+}
+
+
+/* Hero Styling */
+
+#welcome-section {
+    background-image: url(hero.jpg);
+    height: 60vh;
+    padding-top: 4.68em;
+    color: var(--white);
+}
+
+span {
+    color: var(--orange);
+}
