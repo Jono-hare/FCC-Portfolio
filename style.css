@@ -16,6 +16,7 @@
 nav {
     height: 4.68em;
     background-color: var(--black);
+    position: fixed;
 }
 
 
@@ -23,7 +24,10 @@ nav {
 
 #welcome-section {
     background-image: url(hero.jpg);
-    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
     padding-top: 4.68em;
     color: var(--white);
 }
