@@ -16,28 +16,83 @@
 
 <body>
 
-    <nav>
-        <ul class="nav justify-content-end align-items-center">
+    <nav class="container-fluid d-flex justify-content-end">
+        <ul class="nav align-items-center">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link active" href="#welcome-section">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <a class="nav-link" href="#contact">Contact Me</a>
             </li>
         </ul>
     </nav>
 
-    <section id="welcome-section">
+    <!-- Welcome Section -->
 
-        <div class="jumbotron-fluid">
-            <h1>Howsit<span>...</span></h1>
-            <p>I'm Jono and I'm learning to <span>code</span></p>
+    <section id="welcome-section" class="jumbotron jumbotron-fluid d-flex">
+
+        <div class="d-flex align-items-center offset-3">
+            <div class="d-column ">
+                <h1 class="display-1">Howsit<span>...</span></h1>
+                <p class="lead"> I'm Jono and I'm learning to <span>code</span></p>
+                <a class="offset-4" href="#projects" role="button">My Projects</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Project Section -->
+
+    <section id="projects" class="container-fluid text-center">
+
+        <h2 class="">Responsive Web Design Projects</h2>
+
+        <div class="container">
+
+            <!-- Cards -->
+
+            <div class="row">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/P1.jpg" alt="First project image" class="card-img-top img-fluid">
+                        <div class="card-block">
+                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 1</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/P2.jpg" alt="Second project image" class="card-img-top img-fluid">
+                        <div class="card-block">
+                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 2</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/P3.jpg" alt="Third project image" class="card-img-top img-fluid">
+                        <div class="card-block">
+                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/P4.jpg" alt="Fourth project image" class="card-img-top img-fluid">
+                        <div class="card-block">
+                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 4</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </section>

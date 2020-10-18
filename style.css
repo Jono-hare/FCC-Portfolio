@@ -16,14 +16,27 @@
 nav {
     height: 4.68em;
     background-color: var(--black);
+<<<<<<< Updated upstream
+=======
+    position: fixed;
+    z-index: 1;
+>>>>>>> Stashed changes
 }
 
 
 /* Hero Styling */
 
 #welcome-section {
+<<<<<<< Updated upstream
     background-image: url(hero.jpg);
     height: 60vh;
+=======
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+>>>>>>> Stashed changes
     padding-top: 4.68em;
     color: var(--white);
 }
