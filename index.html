@@ -16,15 +16,15 @@
 
 <body>
 
-    <nav class="container-fluid d-flex justify-content-end">
+    <nav id="navbar" class="container-fluid d-flex justify-content-end">
         <ul class="nav align-items-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="#welcome-section">Home</a>
+            <li class="nav-link">
+                <a class="nav-link lead" href="#welcome-section">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-link lead">
                 <a class="nav-link" href="#projects">Projects</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-link lead">
                 <a class="nav-link" href="#contact">Contact Me</a>
             </li>
         </ul>
@@ -36,9 +36,8 @@
 
         <div class="d-flex align-items-center offset-3">
             <div class="d-column ">
-                <h1 class="display-1">Howsit<span>...</span></h1>
-                <p class="lead"> I'm Jono and I'm learning to <span>code</span></p>
-                <a class="offset-4" href="#projects" role="button">My Projects</a>
+                <h1 class="display-1">Howsit<span>,</span></h1>
+                <p class="lead"> I'm Jono and I'm learning to <span class="bold">code</span></p>
             </div>
         </div>
 
@@ -46,63 +45,127 @@
 
     <!-- Project Section -->
 
-    <section id="projects" class="container-fluid text-center">
+    <section id="projects" class="container-fluid text-center ">
 
-        <h2 class="">Responsive Web Design Projects</h2>
+        <h2>Responsive Web Design Projects</h2>
+        <p class="lead">The FCC Responsive Web Design course was my first real taste into the world of coding. During this first course I was able to learn; <a href="https://www.w3schools.com/html/" target="_blank">HTML5</a>, <a href="https://www.w3schools.com/css/"
+                target="_blank">CSS3</a>, CSS grids and flexbox, then finally <a href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap4</a>.
+        </p>
 
-        <div class="container">
+        <!-- Cards -->
 
-            <!-- Cards -->
+        <div class="card-deck project-tile">
 
-            <div class="row">
-
+            <div class="row ">
                 <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="images/P1.jpg" alt="First project image" class="card-img-top img-fluid">
-                        <div class="card-block">
-                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 1</a>
+                    <div class="card bg-light">
+                        <img class="card-img-top" src="/images/P1.jpg" alt="1st project image">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 1</h3>
+                            <p class="card-text">For the first project I was given the task to create a Tribute Page. My main focus here was to learn how CSS grids worked.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a id="link" class="btn btn-primary btn-xl text-uppercase bg-dark" href="https://codepen.io/jono-hare/pen/KKzJYRd" target="_blank">View</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="images/P2.jpg" alt="Second project image" class="card-img-top img-fluid">
-                        <div class="card-block">
-                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 2</a>
+                    <div class="card bg-light">
+                        <img class="card-img-top" src="/images/P2.jpg" alt="2nd project image">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 2</h3>
+                            <p class="card-text">In the second project I had to design and create a survey form. My main focus for this project was learning and implementing flex.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a id="link" class="btn btn-primary btn-xl text-uppercase bg-dark" href="https://codepen.io/jono-hare/pen/RwaOvEm" target="_blank">View</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="images/P3.jpg" alt="Third project image" class="card-img-top img-fluid">
-                        <div class="card-block">
-                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 3</a>
+                    <div class="card bg-light">
+                        <img class="card-img-top" src="/images/P3.jpg" alt="3rd project image">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 3</h3>
+                            <p class="card-text">My next project's focus was creating a responsive navbar while gaining a better understanding for media queries.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a id="link" class="btn btn-primary btn-xl text-uppercase bg-dark" href="https://codepen.io/jono-hare/pen/LYZEKLb" target="_blank">View</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3">
-                    <div class="card">
-                        <img src="images/P4.jpg" alt="Fourth project image" class="card-img-top img-fluid">
-                        <div class="card-block">
-                            <a href="https://codepen.io/jono-hare/full/KKzJYRd">Project 4</a>
+                    <div class="card bg-light">
+                        <img class="card-img-top" src="/images/P4.jpg" alt="4th project image">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 4</h3>
+                            <p class="card-text">For the final task, we were to combine everything that we had learnt previously and apply it to this documentation page.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a id="link" class="btn btn-primary btn-xl text-uppercase bg-dark" href="https://codepen.io/jono-hare/pen/abZzgam" target="_blank">View</a>
                         </div>
                     </div>
                 </div>
-
             </div>
+
         </div>
 
     </section>
 
+    <!-- Contact Me -->
+
+    <section id="contact" class="text-center">
+
+        <h2>Contact Me</h2>
+
+        <form class="container-fluid d-flex justify-content-center">
+
+            <div class="d-flex column col-md-6 justify-content-center">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input id="name" type="text" placeholder="*Your Name" data-validation-required-message="Please enter your name." required>
+                    </div>
+                    <div class="form-group">
+                        <input id="email" type="text" placeholder="*Your Email" data-validation-required-message="Please enter your email." required>
+                    </div>
+                    <div class="form-group">
+                        <input id="phone" type="text" placeholder="*Your Contact number">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="*Your Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <button id="submit" class="btn btn-primary btn-xl text-uppercase bg-success" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="container-fluid d-flex align-items-center justify-content-center">
+
+        <div>
+            <a id="profile-link" href="https://www.freecodecamp.org/jono-hare" target="_blank">
+                <i class="fa fa-free-code-camp fa-2x"></i>
+            </a>
+
+            <a id="profile-link" href="https://github.com/Jono-hare" target="_blank"><i class="fa fa-github fa-2x"></i> </a>
+        </div>
+
+        <p class="text-white">Created Oct 2020 · Designed by <a href="https://www.freecodecamp.org/jono-hare">jono.hare</a></p>
+
+
+    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js "></script>
+    <script src="https://kit.fontawesome.com/c35844a889.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

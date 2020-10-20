@@ -1,46 +1,138 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-:root {
-    --orange: #FB5607;
-    --black: #171717;
-    --white: #F4F5F5;
-}
-
-
-/* Nav Styling */
-
-nav {
-    height: 4.68em;
-    background-color: var(--black);
-<<<<<<< Updated upstream
-=======
-    position: fixed;
-    z-index: 1;
->>>>>>> Stashed changes
-}
-
-
-/* Hero Styling */
-
-#welcome-section {
-<<<<<<< Updated upstream
-    background-image: url(hero.jpg);
-    height: 60vh;
-=======
-    background-image: url(images/hero.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
->>>>>>> Stashed changes
-    padding-top: 4.68em;
-    color: var(--white);
-}
-
-span {
-    color: var(--orange);
-}
+                     * {
+                         margin: 0;
+                         padding-bottom: 0;
+                         box-sizing: border-box;
+                         scroll-behavior: smooth;
+                     }
+                     
+                      :root {
+                         --orange: #FB5607;
+                         --black: #171717;
+                         --white: #F4F5F5;
+                     }
+                     
+                     .row {
+                         width: 100%;
+                     }
+                     /* Nav Styling */
+                     
+                     nav {
+                         height: 4.68em;
+                         background-color: var(--black);
+                         position: fixed;
+                         z-index: 1;
+                     }
+                     
+                     nav a.nav-link {
+                         color: white;
+                         font-weight: bold;
+                     }
+                     
+                     nav a:hover {
+                         color: #FB5607;
+                         transition: 0.5s;
+                     }
+                     /* Hero Styling */
+                     
+                     #welcome-section {
+                         background-image: url(images/hero.jpg);
+                         background-position: center;
+                         background-size: cover;
+                         background-attachment: fixed;
+                         height: 100vh;
+                         padding-top: 4.68em;
+                         color: var(--white);
+                     }
+                     
+                     #welcome-section p .bold {
+                         font-weight: bold;
+                     }
+                     
+                     span {
+                         color: var(--orange);
+                     }
+                     /* Card Styling */
+                     
+                     #projects {
+                         padding-bottom: 50px;
+                         margin: 0 auto;
+                     }
+                     
+                     #projects p.lead {
+                         font-weight: 400;
+                     }
+                     
+                     #projects p a {
+                         color: var(--orange);
+                     }
+                     
+                     #projects p a:hover {
+                         text-decoration: none;
+                         color: darkblue;
+                         transition: 0.5s;
+                     }
+                     
+                     #link:hover {
+                         color: #FB5607;
+                         border-color: none;
+                         transition: 0.5s;
+                     }
+                     
+                     .card {
+                         margin: 20px auto;
+                         box-shadow: 1px 2px 3px #000;
+                     }
+                     /* Contact Section */
+                     
+                     #contact {
+                         background: url(/images/hero.jpg);
+                         background-position: bottom;
+                         background-size: cover;
+                         background-attachment: fixed;
+                         height: 100%;
+                         padding-top: 15px;
+                         padding-bottom: 30px;
+                     }
+                     
+                     #contact h2 {
+                         color: white;
+                         margin: 20px;
+                     }
+                     
+                     input,
+                     textarea {
+                         width: 100%;
+                         display: block;
+                         border-radius: 5px;
+                         padding: 10px;
+                     }
+                     
+                     #submit-btn {
+                         background-color: var(--orange);
+                     }
+                     /* Footer Styling */
+                     
+                     footer {
+                         display: flex;
+                         height: 110px;
+                         background: #171717;
+                         flex-direction: column;
+                         padding: 15px;
+                     }
+                     
+                     footer a {
+                         color: var(--orange);
+                     }
+                     
+                     footer a:hover {
+                         text-decoration: none;
+                         color: var(--white);
+                         transition: 0.5s;
+                     }
+                     /* @media (max-width: 768px) {
+                         h1 {
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                         }
+                     } */
